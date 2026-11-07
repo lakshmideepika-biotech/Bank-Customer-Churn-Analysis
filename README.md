@@ -28,7 +28,8 @@ SQL Server (SSMS), Python (Pandas, Kaggle Notebooks), Power BI (DAX)
 - Offer retention deals to inactive customers and customers in Germany.
 - Review the 3–4 product bundles to find out why churn is so high.
 
-
 ## Files
-- `Bank_Customer_Churn_Analysis.pbix`: Power BI dashboard
-- SQL scripts and the Python notebook (Add the file names)
+- `Bank Churn Analytics.sql`: SQL queries (SSMS)
+- `bank-churn-analysis.ipynb`: Python EDA notebook
+- `Bank Customer Churn Analysis.pbix`: Power BI dashboard
+- `Churn_Modelling.csv`: dataset
