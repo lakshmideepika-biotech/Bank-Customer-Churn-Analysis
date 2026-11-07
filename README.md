@@ -21,6 +21,9 @@ SQL Server (SSMS), Python (Pandas, Kaggle Notebooks), Power BI (DAX)
 - Customers aged 40–60 churn the most
 - Customers with 3–4 products churn above 80%
 
+## Dashboard
+![Dashboard](dashboard.png)
+
 ## Recommendations
 - Offer retention deals to inactive customers and customers in Germany.
 - Review the 3–4 product bundles to find out why churn is so high.
