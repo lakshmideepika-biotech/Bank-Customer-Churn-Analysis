@@ -1,35 +1,31 @@
 # Bank Customer Churn Analysis
 
-## Project Overview
-This project analyzes banking customer data to identify factors influencing customer churn and predict customer retention patterns using Python, SQL, and Power BI.
+## Objective
+Find which bank customers are most likely to leave (churn) and suggest ways to keep them.
+
+## Dataset
+10,000 bank customers from the public Churn Modelling dataset.
 
 ## Tools Used
-- Python
-- SQL
-- Power BI
+SQL Server (SSMS), Python (Pandas, Kaggle Notebooks), Power BI (DAX)
 
-## Objectives
-- Analyze customer churn behavior
-- Identify high-risk customers
-- Understand customer demographics
-- Create a churn analysis dashboard
+## Approach
+1. SQL: wrote queries to compare churn across country, activity and number of products. (Edit to match what you did)
+2. Python: cleaned the data and explored it with EDA. (Edit to match what you did)
+3. Power BI: built an interactive dashboard with a Churn Rate % measure and age groups.
 
-## Key Analysis
-- Customer demographics
-- Credit score analysis
-- Account balance analysis
-- Churn rate analysis
-- Customer segmentation
+## Key Findings
+- Overall churn rate: 20.4%
+- Germany: 32% churn, vs about 16% in France and Spain
+- Inactive members: 27% churn, vs 14% for active members
+- Customers aged 40–60 churn the most
+- Customers with 3–4 products churn above 80%
 
-## Dashboard KPIs
-- Total Customers
-- Churned Customers
-- Churn Rate
-- Active Customers
-- Average Balance
+## Recommendations
+- Offer retention deals to inactive customers and customers in Germany.
+- Review the 3–4 product bundles to find out why churn is so high.
 
-## Skills Demonstrated
-Python | SQL | Power BI | Data Cleaning | Customer Analytics | Visualization
 
-## Author
-Lakshmi Deepika
+## Files
+- `Bank_Customer_Churn_Analysis.pbix`: Power BI dashboard
+- SQL scripts and the Python notebook (Add the file names)
